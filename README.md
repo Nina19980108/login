@@ -49,6 +49,25 @@ nodemon app.js
 http://localhost:3000
 ```
 
+7. 以下為可成功登入的 email 和 password
+
+```
+email: tony@stark.com
+password: iamironman
+
+email: captain@hotmail.com
+password: icandothisallday
+ 
+email: peter@parker.com
+password: enajyram
+    
+email: natasha@gamil.com
+password: *parol#@$!
+    
+email: nick@shield.com
+password: password
+```
+
 ## Contributor - 專案開發人員
 
 > [Nina Liu](https://github.com/Nina19980108)
