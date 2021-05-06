@@ -28,9 +28,9 @@ function login(email, password) {
     }
   ]
 
-  let result = users.some(user => user.email === email || user.password === password)
+  let user = users.find(user => user.email === email && user.password === password) || false
 
-  return result
+  return user
 }
 
 module.exports = login

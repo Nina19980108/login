@@ -1,6 +1,6 @@
 <div class="container d-flex flex-column align-items-center" style="margin-top: 10rem;">
 
-  <form>
+  <form action="/login" method="POST">
 
     <div class="d-flex flex-column align-items-center">
 
@@ -9,17 +9,22 @@
       </div>
 
       <div class="mb-3" style="width: 150%;">
-        <input type="email" class="form-control" placeholder="Email" id="exampleInputEmail1"
+        <input type="email" class="form-control" name="email" placeholder="Email" id="exampleInputEmail1"
           aria-describedby="emailHelp">
       </div>
 
       <div class="mb-3" style="width: 150%;">
-        <input type="password" placeholder="Password" class="form-control" id="exampleInputPassword1">
+        <input type="password" placeholder="Password" name="password" class="form-control" id="exampleInputPassword1">
       </div>
+
+
+      <div class="form-text text-danger">{{ warning }}</div>
+
 
       <div class="mt-5">
         <button type="submit" class="btn btn-outline-secondary">Sign In</button>
       </div>
+
 
     </div>
 
