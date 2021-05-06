@@ -1,5 +1,6 @@
 const express = require('express')
 const exphbs = require('express-handlebars')
+const login = require('./login')
 
 const app = express()
 const port = 3000
